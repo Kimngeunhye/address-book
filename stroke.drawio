@@ -1,17 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T09:51:57.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2UqbzsgQOBnjMgGgnvre" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T10:12:53.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ADXFXBW38IIV78gWs206" version="24.3.1" type="github">
   <diagram name="Page-1" id="jBIAE1w11iivvrM5rWgn">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lO6apMJTRB17O3W7_CEF-5" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="370" y="240" width="117.5" height="115" as="geometry" />
+          <mxGeometry x="380" y="240" width="117.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="lO6apMJTRB17O3W7_CEF-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="lO6apMJTRB17O3W7_CEF-5">
           <mxGeometry width="117.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="lO6apMJTRB17O3W7_CEF-2" value="Stroke Prevention Management&amp;nbsp;&lt;div&gt;System&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="lO6apMJTRB17O3W7_CEF-5">
           <mxGeometry x="2.5" y="30" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-7" value="Guest(User)" style="html=1;whiteSpace=wrap;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-8" value="Chat GPT API" style="html=1;whiteSpace=wrap;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-10" value="Input current life behavior" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lO6apMJTRB17O3W7_CEF-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-11" value="Return the each item dangerous percentage&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;Advised life care&lt;/div&gt;&lt;div&gt;based on user input data&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lO6apMJTRB17O3W7_CEF-4" target="lO6apMJTRB17O3W7_CEF-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-12" value="Hand over the user data input&lt;div&gt;&amp;nbsp;which contains user&#39;s current life behavior&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lO6apMJTRB17O3W7_CEF-2" target="lO6apMJTRB17O3W7_CEF-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-13" value="Calculate stroke occurrence prediction percentage&amp;nbsp;&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;based on previous calculation result advise to user&amp;nbsp;&lt;/div&gt;&lt;div&gt;what they should behave for the their health&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lO6apMJTRB17O3W7_CEF-8" target="lO6apMJTRB17O3W7_CEF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="395" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
