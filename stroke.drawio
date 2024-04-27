@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T09:48:55.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="HUMf4tSMahXVQGMJYgv0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T09:51:57.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2UqbzsgQOBnjMgGgnvre" version="24.3.1" type="github">
   <diagram name="Page-1" id="jBIAE1w11iivvrM5rWgn">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lO6apMJTRB17O3W7_CEF-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370" y="240" width="117.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="lO6apMJTRB17O3W7_CEF-5">
+          <mxGeometry width="117.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="lO6apMJTRB17O3W7_CEF-2" value="Stroke Prevention Management&amp;nbsp;&lt;div&gt;System&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="lO6apMJTRB17O3W7_CEF-5">
+          <mxGeometry x="2.5" y="30" width="115" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
